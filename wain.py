@@ -3,7 +3,6 @@ from random import randint
 from pyfiglet import figlet_format
 from plyer import notification
 
-
 def roll_dice():
     """Генерує випадкове число від 1 до 4 (симуляція кидка кубика)."""
     return randint(1, 6)
